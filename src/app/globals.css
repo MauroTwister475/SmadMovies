@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+.navbar {
+  transition: width 0.3s ease;
+}
